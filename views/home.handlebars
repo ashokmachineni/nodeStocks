@@ -1,1 +1,10 @@
-<h1>its hoeaas</h1>
+<h1>{{stock.companyName}} ({{stock.symbol}})</h1>
+{{stock}}
+<br />
+<br />
+
+<br />
+
+{{#each stock}}
+{{@key}} | {{this}} <br />
+{{/each}}
